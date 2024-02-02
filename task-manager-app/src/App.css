@@ -1,0 +1,51 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F5F1DE; /* Beige yellow background color */
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #765038; /* Beige brown color */
+  font-size: 2em; /* Make the font size bigger */
+  font-weight: bold; /* Make the text bold */
+}
+
+.task-form {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #259259; /* Green color */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Increase padding for a bigger button */
+  font-size: 1em; /* Font size of the button text */
+  border: none;
+  cursor: pointer;
+  border-radius: 25px; /* Make the button round */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #765038; /* Beige brown color for table borders */
+  padding: 10px;
+  text-align: center; /* Center text in table cells */
+}
+
+th {
+  background-color: #259259; /* Green color for table header */
+  color: #fff; /* White text for table header */
+}
